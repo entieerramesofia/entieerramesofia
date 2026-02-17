@@ -7,6 +7,8 @@ selector {
 }
 */
 
+
+
 body{
     background-color: #5eb959;
     color:rgb(179, 7, 7);
@@ -50,4 +52,39 @@ h4{
 text-align: center;
 
 
+}
+
+.glitch{
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  background: black;
+}
+
+.glitch::before,
+.glitch::after{
+  content: "ERROR";
+  position: absolute;
+  left: 0;
+}
+
+.glitch::before{
+  color: red;
+  animation: glitch1 0.3s infinite;
+}
+
+.glitch::after{
+  color: cyan;
+  animation: glitch2 0.3s infinite;
+}
+
+@keyframes glitch1{
+  0%{ transform: translate(2px, -2px); }
+  100%{ transform: translate(-2px, 2px); }
+}
+
+@keyframes glitch2{
+  0%{ transform: translate(-2px, 2px); }
+  100%{ transform: translate(2px, -2px); }
 }
