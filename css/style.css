@@ -53,6 +53,15 @@ h2 {
 
 }
 
+
+h3 {
+
+  font-size: 1.5em;
+
+}
+
+/*
+
 main {
 
   width: 100%;
@@ -101,9 +110,32 @@ h3 {
 h4 {
   text-align: center;
 
-
-
 }
+
+a {
+
+  filter: invert(1); 
+
+} */
+
+a:hover {
+
+  color: var(--text-color);
+  opacity: .8;
+}
+
+a:visited {
+
+  color: var(--text-color);
+  opacity: .8;
+}
+
+a:focus {
+
+  color: var(--text-color);
+  opacity: .8;
+}
+
 
 .glitch {
   font-size: 3rem;
