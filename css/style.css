@@ -13,8 +13,8 @@ selector {
 
   --font-family: "forma-djr-display", sans-serif;
   --font-title: "Archivo Black", sans-serif;
-  --accent-color: rgb(255, 238, 0) ;
-  --background-color: rgb(138, 138, 254) ;
+  --accent-color: rgb(255, 238, 0);
+  --background-color: rgb(138, 138, 254);
   --text-color: rgb(255, 101, 193);
 
 
@@ -27,11 +27,29 @@ html {
 }
 
 body {
-background-color: var(--background-color);
-color: var(--text-color);
-font-family: var(--font-family);
-font-size: 1.6em;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: 1.6em;
 
+}
+
+h1, h2, h3 {
+
+font-family: var(--font-title);
+text-transform: uppercase;
+
+}
+
+h1 {
+
+font-size: 4em;
+
+}
+
+h2 {
+
+  font-size: 2em;
 
 }
 
