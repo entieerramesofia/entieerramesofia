@@ -110,19 +110,15 @@ h3 {
 h4 {
   text-align: center;
 
-}
+}*/
+
 
 a {
 
-  filter: invert(1); 
+  /*filter: invert(1); */
 
-} */
 
-a:hover {
-
-  color: var(--text-color);
-  opacity: .8;
-}
+} 
 
 a:visited {
 
@@ -136,6 +132,23 @@ a:focus {
   opacity: .8;
 }
 
+a:visited {
+
+  color: var(--text-color);
+
+}
+
+a:active {
+
+  color: var(--text-color);
+
+}
+
+a:hover {
+
+  color: var(--text-color);
+  opacity: .8;
+}
 
 .glitch {
   font-size: 3rem;
