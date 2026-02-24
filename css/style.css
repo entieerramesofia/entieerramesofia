@@ -11,11 +11,11 @@ selector {
 
 :root {
 
-  --font-family: ;
-  --font-title: ;
-  --accent-color: ;
-  --background-color: ;
-  --color-text: ;
+  --font-family: "forma-djr-display", sans-serif;
+  --font-title: "Archivo Black", sans-serif;
+  --accent-color: rgb(255, 238, 0) ;
+  --background-color: rgb(138, 138, 254) ;
+  --text-color: rgb(255, 101, 193);
 
 
 }
@@ -26,64 +26,68 @@ html {
 
 }
 
-body{
-    background-color: #5eb959;
-    color:rgb(179, 7, 7);
+body {
+background-color: var(--background-color);
+color: var(--text-color);
+font-family: var(--font-family);
+font-size: 1.6em;
+
+
 }
 
 main {
 
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 
 
 }
 
-header{
+header {
 
-    font-size:12px;
+  font-size: 12px;
 
 }
 
 h1 {
-    font-size: 30px;
-font-family: "forma-djr-display", sans-serif;
-font-weight: 900;
-font-style: normal;
-text-shadow: 2px 2px 5px rgba(12, 35, 241, 0.3);
-text-align: center;
+  font-size: 30px;
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 2px 2px 5px rgba(12, 35, 241, 0.3);
+  text-align: center;
 
 }
 
 
-h2{
-font-size:3rem;
-font-family: "forma-djr-display", sans-serif;
-font-weight: 500;
-font-style: normal;
-text-align: center;
+h2 {
+  font-size: 3rem;
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
 
 
 }
 
-h3{
-font-size:3em;
-font-family: "forma-djr-display", sans-serif;
-font-weight: 500;
-font-style: normal;
-text-transform: capitalize;
+h3 {
+  font-size: 3em;
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: capitalize;
 }
 
-h4{
-text-align: center;
+h4 {
+  text-align: center;
 
 
 
 }
 
-.glitch{
+.glitch {
   font-size: 3rem;
   font-weight: bold;
   color: white;
@@ -92,33 +96,43 @@ text-align: center;
 
 
 .glitch::before,
-.glitch::after{
+.glitch::after {
   content: "lorem";
   position: absolute;
   left: 0;
 }
 
-.glitch::before{
+.glitch::before {
   color: red;
   animation: glitch1 0.3s infinite;
 }
 
-.glitch::after{
+.glitch::after {
   color: cyan;
   animation: glitch2 0.3s infinite;
 }
 
-@keyframes glitch1{
-  0%{ transform: translate(2px, -2px); }
-  100%{ transform: translate(-2px, 2px); }
+@keyframes glitch1 {
+  0% {
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    transform: translate(-2px, 2px);
+  }
 }
 
-@keyframes glitch2{
-  0%{ transform: translate(-2px, 2px); }
-  100%{ transform: translate(2px, -2px); }
+@keyframes glitch2 {
+  0% {
+    transform: translate(-2px, 2px);
+  }
+
+  100% {
+    transform: translate(2px, -2px);
+  }
 }
 
 pre {
 
-    text-shadow: 0px 3px 0px red    ;
+  text-shadow: 0px 3px 0px red;
 }
