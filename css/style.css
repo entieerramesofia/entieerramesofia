@@ -15,7 +15,7 @@ selector {
   --font-title: "Archivo Black", sans-serif;
   --accent-color: rgb(255, 238, 0);
   --background-color: rgb(138, 138, 254);
-  --text-color: rgb(255, 101, 193);
+  --text-color: rgb(230, 78, 169);
 
 
 }
@@ -30,7 +30,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: var(--font-family);
-  font-size: 1.6em;
+  font-size: 1.0em;
 
 }
 
@@ -112,6 +112,11 @@ h4 {
 
 }*/
 
+
+strong {
+
+  margin-left: center;
+}
 
 a {
 
