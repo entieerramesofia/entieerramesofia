@@ -155,7 +155,7 @@ h4 {
   font-size: 3rem;
   font-weight: 800;
   background: linear-gradient(90deg, hotpink, purple, cyan);
-  -webkit-background-clip: text;
+  --webkit-background-clip: text;
   color: transparent;
 }
 
