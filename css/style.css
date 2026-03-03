@@ -9,6 +9,15 @@ selector {
 
 /* root es la RAÍZ del documentoo*/
 
+
+
+  .archivo-black-regular {
+      font-family: "Archivo Black", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+
 :root {
 
   --font-family: "forma-djr-display", sans-serif;
@@ -52,7 +61,7 @@ font-size: 1.5em;
 
 h2 {
 
-  font-size: 2em;
+  font-size: 1.6em;
 
 }
 
@@ -63,6 +72,25 @@ h3 {
 
 }
 
+
+ .titulo-principal {
+
+      font-size: 3.5rem;              /* tamaño inicial */
+      text-align: center;
+      transition: all 0.9s ease;      /* animación suave */
+      color: #ff0000;                    
+      cursor: default;  
+      }/* cursor normal */
+
+
+      .titulo-principal:hover {
+        font-size: 5.2rem; 
+        text-align: center;
+        /* aumenta de tamaño */
+        text-shadow: 0 0 15px rgb(255, 255, 237),
+                     0 0 30px rgb(0, 4, 255); /* brillo */
+        color: rgb(111, 230, 248); /* color del icono */
+    }
 /*
 
 main {
