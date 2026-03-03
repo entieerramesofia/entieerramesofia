@@ -13,25 +13,28 @@ selector {
 
   .archivo-black-regular {
       font-family: "Archivo Black", sans-serif;
-      font-weight: 400;
       font-style: normal;
     }
     
+
+* {
+  box-sizing: border-box;
+}
 
 :root {
 
   --font-family: "forma-djr-display", sans-serif;
   --font-title: "Archivo Black", sans-serif;
-  --accent-color: rgb(255, 238, 0);
+  --accent-color:#0002FF;
   --background-color: rgb(138, 138, 254);
   --text-color: rgb(230, 78, 169);
-
+#F597F2
 
 }
 
 html {
 
-  font-size: 10 px;
+  font-size: 14 px;
 
 }
 
@@ -54,7 +57,7 @@ h1 {
 
 
 box-sizing: border-box;
-marg
+margin: 1;
 font-size: 1.5em;
 
 }
@@ -72,6 +75,10 @@ h3 {
 
 }
 
+header{
+
+  padding: 1em;
+}
 
  .titulo-principal {
 
@@ -142,6 +149,15 @@ h4 {
   text-align: center;
 
 }*/
+
+
+.gradient{
+  font-size: 3rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, hotpink, purple, cyan);
+  -webkit-background-clip: text;
+  color: transparent;
+}
 
 
 strong {
@@ -233,7 +249,3 @@ a:hover {
   }
 }
 
-pre {
-
-  text-shadow: 0px 3px 0px red;
-}
